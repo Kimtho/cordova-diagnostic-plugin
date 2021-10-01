@@ -275,7 +275,7 @@
 
         <source-file src="src/android/Diagnostic.java" target-dir="src/cordova/plugins" />
 
-        <preference name="ANDROIDX_VERSION" default="1.+" />
+          <preference name="ANDROIDX_VERSION" default="[1.0, 1.4[" />
         <framework src="androidx.legacy:legacy-support-v4:$ANDROIDX_VERSION" />
         <framework src="androidx.appcompat:appcompat:$ANDROIDX_VERSION" />
 
